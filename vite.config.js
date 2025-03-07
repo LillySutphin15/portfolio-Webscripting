@@ -15,7 +15,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, "src/index.html"),
                 Webpage: resolve(__dirname, "src/Webpage/web.html"),
-                Pages: resolve(__dirname, "src/page/page.html"),
+                Pages: resolve(__dirname, "src/page/index.html"),
                 Todo: resolve(__dirname, "src/toDoApp/toDo.html")
             },
         },

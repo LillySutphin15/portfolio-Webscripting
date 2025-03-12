@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first page deploy</title>
-    <h1>Welcome to my first page</h1>
+    <style>
+        body {
+        background-color: #333; /* Dark gray */
+        color: white; /* Makes text readable on dark background */
+        font-family: Arial, sans-serif;
+    }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        
+    </style>
 </head>
-<body>
-    <p>I learned how to deploy a page directly to github in this assignment</p>
-    <p>Click the link below to go to my github repo</p>
-    <a href="https://github.com/LillySutphin15/pages-site">Click me</a>
-    
-</body>
+  <main>
+    <body>
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 700; text-align: center;">Hello! Welcome to the first page deploy</h1>
+        <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; opacity: 0.8; text-align: center;">I learned how to deploy a page directly to github in this assignment.
+            The link below will take you to my github repo
+        </p>
+        <nav class="text-center mt-4">
+            <div class="mb-3">
+                <a href="https://github.com/LillySutphin15/pages-site"
+                   class="btn btn-primary btn-lg">
+                    My First Page
+                </a>
+            </div>
+            <div class="mb-3">
+                <a href=".." class="btn btn-warning">Home</a>
+            </div>
+        </nav>
+        
+    </body>
+  </main>
 </html>

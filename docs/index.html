@@ -1,19 +1,67 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <h1>Lilly Sutphins Portfolio</h1>
   </head>
+  <style>
+    body {
+        background-color: #333; /* Dark gray */
+        color: white; /* Makes text readable on dark background */
+        font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+  }
+  nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      display: inline-block;
+  }
+  nav a:hover {
+      background-color: #555;
+  }
+  </style>
   <body>
-    <p>This is my portfolio of all my work in ITP225</p>
-    <div id="app"></div>
-    <a href="./Webpage/web">My first Webpage</a>
-    <p></p>
-    <a href="./page/">My first page deploy</a>
-    <p></p>
-    <a href="./toDoApp/toDo">toDo App</a>
     
+    
+      <h1 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 700; text-align: center;">Lilly Sutphins Portfolio</h1>
+      <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; opacity: 0.8; text-align: center;">This is my portfolio of all my important works in my ITP225 class</p>
+      <nav class="text-center mt-4">
+        <div class="mb-3">
+          <a href="./Webpage/web" class="btn btn-primary btn lg">
+              My First Webpage
+          </a>
+        </div>
+
+
+        <div class="mb-3">
+          <a href="./page/" class="btn btn-primary btn lg">
+            My First Page Deploy
+          </a>
+        </div>
+        
+
+        <div class="mb-3">
+          <a href="./toDoApp/toDo"
+             class="btn btn-primary btn lg">
+              My ToDo App
+          </a>
+        </div>
+      </nav>
+    
+
+    <main>
+    <div id="app"></div>
+
+    </main>
+    <footer>
+        
+    </footer>
   </body>
 </html>

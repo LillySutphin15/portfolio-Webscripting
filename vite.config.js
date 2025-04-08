@@ -6,12 +6,12 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react()],
-    base: '/',
-    root: "src",
+    base: '/portfolio-demos/',
+    root: 'src',
     build: {
-        outDir: "../docs",
+        outDir: '../docs',
         emptyOutDir: true,
-        assetsDir: "assets",
+        assetsDir: 'assets',
         rollupOptions: {
             input: {
                 main: resolve(__dirname, "src/index.html"),

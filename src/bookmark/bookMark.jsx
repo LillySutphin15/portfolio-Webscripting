@@ -25,6 +25,7 @@ function BookmarkPage() {
       updatedFolders[index].name = newName;
       setFolders(updatedFolders);
     }
+    
   };
 
   const addBookmark = (index) => {

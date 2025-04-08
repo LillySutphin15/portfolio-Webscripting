@@ -7,11 +7,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [react()],
     base: '/portfolio-demos/',
-    root: 'src',
+    root: "src",
     build: {
-        outDir: '../docs',
+        outDir: "../docs",
         emptyOutDir: true,
-        assetsDir: 'assets',
         rollupOptions: {
             input: {
                 main: resolve(__dirname, "src/index.html"),
@@ -22,6 +21,13 @@ export default defineConfig({
                 localFetch: resolve(__dirname, "src/local-fetch/index.html"),
                 bookMark: resolve(__dirname, "src/bookmark/index.html"),
             },
+                output: {
+                    entryFileNames: '[name].js', 
+                    chunkFileNames: '[name].js', 
+                    assetFileNames: '[name].[ext]', 
+            
+            },
+            
         },
     },
 })

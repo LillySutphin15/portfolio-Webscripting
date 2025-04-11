@@ -65,7 +65,7 @@ function BookmarkPage() {
       
       
       <div className="text-center mb-3">
-        <a href="/portfolio-Webscripting/" className="btn btn-warning btn-lg" style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "1rem" }}>
+        <a href="../index.html/" className="btn btn-warning btn-lg" style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "1rem" }}>
           Home
         </a>
       </div>
